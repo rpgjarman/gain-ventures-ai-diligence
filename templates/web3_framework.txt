@@ -1,0 +1,47 @@
+# Gain Ventures Web3 Investment Framework
+
+## Focus Areas (High Priority)
+- DeFi (Decentralized Finance) protocols and infrastructure
+- NFT marketplaces and creator tools
+- DAO (Decentralized Autonomous Organization) tooling
+- Layer 1/Layer 2 blockchain infrastructure
+- Cross-chain/interoperability solutions
+- GameFi and Play-to-Earn platforms
+- Web3 social and creator economy
+- Crypto trading and portfolio management tools
+
+## Stage Preferences
+- Pre-seed: $100K - $1M (Early protocols, strong founding teams)
+- Seed: $1M - $5M (Product-market fit, growing user base)
+- Series A: $5M - $15M (Proven traction, scaling operations)
+
+## Key Web3 Success Metrics
+- Total Value Locked (TVL) for DeFi
+- Active users (DAU/MAU)
+- Transaction volume and fees generated
+- Token holder distribution and growth
+- Developer activity and GitHub commits
+- Community engagement (Discord/Twitter followers)
+- Partnerships with major protocols
+- Regulatory compliance status
+
+## Positive Signals
+✅ Experienced team with previous crypto/tech exits
+✅ Strong tokenomics and sustainable business model
+✅ Active developer community and open-source approach
+✅ Clear regulatory compliance strategy
+✅ Strategic partnerships with established protocols
+✅ Innovative solution to real Web3 pain points
+✅ Strong product-market fit indicators
+✅ Diversified revenue streams beyond token appreciation
+
+## Red Flags / Deal Breakers
+❌ Anonymous team with no track record
+❌ Unclear or unsustainable tokenomics
+❌ Regulatory risks in key markets (US, EU)
+❌ Copy-paste of existing protocols without innovation
+❌ Over-reliance on token price for business model
+❌ Security vulnerabilities or past hacks
+❌ Weak community and user engagement
+❌ No clear go-to-market strategy
+❌ Excessive token unlock schedules favoring insiders
