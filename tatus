@@ -1,0 +1,35 @@
+[33mcommit 50fd9ea863189e31bfa52bf1bc1ba80be204e18f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Robert Jarman <robertpj235@gmail.com>
+Date:   Tue Aug 19 14:20:45 2025 -0400
+
+    Stop tracking .env and ignore it
+
+ .gitignore | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+
+[33mcommit d2ebb7726089eb5e0a8afe2192ee405423dc5eae[m
+Author: Robert Jarman <robertpj235@gmail.com>
+Date:   Tue Aug 19 13:05:15 2025 -0400
+
+    Fix data persistence and add environment variables
+
+ agents/diligence_agent.py | 244 [32m++++++++++++++++++++++++++++++++++++++++++++++[m
+ agents/research_agent.py  | 151 [32m++++++++++++++++++++++++++++[m
+ agents/web3_agent.py      | 142 [32m+++++++++++++++++++++++++++[m
+ main.py                   |  77 [32m+++++++++++[m[31m----[m
+ render.yaml               |  26 [32m+++++[m
+ requirements.txt          |  22 [32m++[m[31m---[m
+ utils/airtable_client.py  |  94 [32m++++++++++++++++++[m
+ utils/email_client.py     | 126 [32m++++++++++++++++++++++++[m
+ 8 files changed, 851 insertions(+), 31 deletions(-)
+
+[33mcommit 981591ccf4553aec593b4391e321e6039ba33659[m
+Author: Robert Jarman <robertpj235@gmail.com>
+Date:   Sun Aug 17 20:11:35 2025 -0400
+
+    Initial n8n cloud deployment setup
+
+ main.py                      | 99 [32m++++++++++++++++++++++++++++++++++++++++++++[m
+ requirements.txt             | 17 [32m++++++++[m
+ templates/web3_framework.txt | 47 [32m+++++++++++++++++++++[m
+ 3 files changed, 163 insertions(+)
