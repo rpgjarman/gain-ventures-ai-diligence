@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: gain-ventures-ai-diligence
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: HUNTER_API_KEY
+        sync: false
+      - key: APOLLO_API_KEY
+        sync: false
+      - key: AIRTABLE_API_KEY
+        sync: false
+      - key: AIRTABLE_BASE_ID
+        value: "appxrSHAyyydQq6XY"
+      - key: AIRTABLE_TABLE_ID
+        value: "tblyW2riQUpHA2da8"
+      - key: EMAIL_USER
+        value: "robertpj235@gmail.com"
+      - key: EMAIL_PASSWORD
+        sync: false
+      - key: COMPANY_EMAIL
+        value: "robert@gain.ventures"
+    autoDeploy: false
